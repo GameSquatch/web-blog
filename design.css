@@ -17,11 +17,15 @@ body {
     padding: 10px;
 }
 
+#intro-sum {
+    font-size: 15pt;
+}
+
 #nav-btn {
     border: 2px solid white;
 }
 
-.card {
+#entry {
     box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.10), -1px 0 8px 0 rgba(0, 0, 0, 0.10);
 }
 
