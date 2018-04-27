@@ -2,3 +2,31 @@ body {
     margin: 0;
     padding: 0;
 }
+
+code, pre {
+    margin: 0;
+    padding: 0;
+}
+.code {
+    font-family: monospace;
+    background-color: rgb(220, 220, 220);
+    padding: 8px 0 1px 8px;
+    border-left: 3px solid greenyellow;
+    margin: 0 8px;
+    overflow-x: auto;
+}
+.code .comment {
+    color: green;
+}
+
+/* .card-header {
+    position: relative;
+} */
+
+/* #entry-title {
+    
+}
+
+#entry-date {
+    
+} */
