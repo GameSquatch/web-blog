@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+#header {
+    font-size: 24pt;
+    padding: 10px;
+    margin: 0 0 10px;
+}
+
 code, pre {
     margin: 0;
     padding: 0;
