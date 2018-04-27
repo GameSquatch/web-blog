@@ -16,13 +16,13 @@ body {
     font-size: 24pt;
     padding: 10px;
 }
-#header .badge {
-    position: absolute;
-    left: 5px;
-}
 
 #nav-btn {
     border: 2px solid white;
+}
+
+.card {
+    box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.10), -1px 0 8px 0 rgba(0, 0, 0, 0.10);
 }
 
 code, pre {
