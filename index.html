@@ -9,13 +9,12 @@
     <script src="script.js"></script>
 </head>
 <body>
-
+    <div id="bg">
+    <div class="bg-success text-white text-center" id="header">
+        <button class="btn btn-success float-left" type="button" id="nav-btn">|||</button>
+        Zeke's Blog Page, biiiiitch
+    </div>
     <div class="container">
-
-        <div class="bg-success text-white text-center" id="header">
-            This is the header, mother fucker.
-        </div>
-
 
         <!--COPY FROM HERE FOR NEW ENTRY-->
         <div class="row">
@@ -69,10 +68,15 @@ enemyObj->party();
                                     and instantly rewarding.
                             </p>
                             <div class="code">
-    <pre><code><span class="comment">//This is where I would post code</span>
-    unique_ptr&lt;Enemy&gt; enemyObj;
-    enemyObj->party();
-    <span class="comment">//Time to make a really long comment, so I can test the overflow.</span></code></pre>
+<pre><code><span class="comment">//This is where I would post code</span>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+    return 0;
+}
+<span class="comment">//Time to make a really long comment, so I can test the overflow.</span></code></pre>
                             </div>
                         </div><!--end card-body-->
                     </div><!--end card-->
@@ -83,8 +87,8 @@ enemyObj->party();
             </div><!--COPY TO HERE FOR NEW ENTRY-->
 
 
-    </div>
-    
+    </div><!--end container-->
+    </div><!--end bg-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
