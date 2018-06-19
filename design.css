@@ -45,14 +45,12 @@ code, pre {
     color: green;
 }
 
-/* .card-header {
-    position: relative;
-} */
-
-/* #entry-title {
-    
+img {
+    width: 100%;
+    height: auto;
 }
 
-#entry-date {
-    
-} */
+a img:hover {
+    opacity: 0.70;
+    cursor: pointer;
+}
